@@ -8,7 +8,7 @@ class Ejemplar extends Model
 {
     use HasFactory;
 
-    protected $table = 'usuarios';
+    protected $table = 'Ejemplares';
 
     public function libro()
     {

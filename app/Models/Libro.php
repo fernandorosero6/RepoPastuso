@@ -8,7 +8,7 @@ class Libro extends Model
 {
     use HasFactory;
 
-    protected $primaryKey = 'id'; 
+    protected $primaryKey = 'Libro';
 
     public function ejemplares()
     {
